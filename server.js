@@ -1,4 +1,4 @@
-const io = require("socket.io")();
+const io = require("socket.io")(3000);
 var fs = require('fs');
 var crypto = require('crypto');
 var newFN;
