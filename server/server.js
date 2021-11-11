@@ -23,6 +23,7 @@ io.on("connection", socket => {
         <body>
             <p>${data}</p>
         </body>
+        <link rel="stylesheet" href="app.css">
         </html>`, function(err){
             if (err){
                  console.log(err);

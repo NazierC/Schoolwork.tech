@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(12, 0, 17);
+    color: white;
+}
+div{
+    
+
+    
+}
+textarea{
+    margin-left: 12.5%;
+    width: 75%;
+    height: 50vh;
+    background-color:rgb(23, 1, 32);
+    color: white;
+    font-size:22px;
+    border-radius: 5px;
+}
+textarea:hover{
+    border-radius: 20px;
+    -webkit-animation: onHover 0.25s normal;
+    animation: onHover 0.25s normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+textarea:focus
+{
+    border-radius: 20px;
+    -webkit-animation: onHover 0.25s normal;
+    animation: onHover 0.25s normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+h1
+{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    margin-left:45%;
+    width: 10%;
+    height: 10%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(23, 1, 32);
+    border-radius: 5px;
+}
+button:hover{
+    border-radius: 15px;
+    -webkit-animation: onHover 0.25s normal;
+    animation: onHover 0.25s normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+p{
+    text-align:center;
+    font-size:26px
+}
+
+@-webkit-keyframes onHover {
+    from {
+      border-radius: 5px;
+    }
+    to {
+      border-radius: 10px;
+    }
+  }
+  
+  @keyframes onHover {
+    from {
+      border-radius: 5px;
+    }
+    to {
+      border-radius: 10px;
+    }
+  }
